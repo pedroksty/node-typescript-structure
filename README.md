@@ -113,3 +113,6 @@ Feito com ❤️ por Pedro henrique 👋🏽 [Entre em contato!](https://www.lin
 [prettier]: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
 [rs]: https://rocketseat.com.br
 [yarn]: https://yarnpkg.com/getting-started/install
+[express]: https://expressjs.com/pt-br/
+[jest]: https://jestjs.io/
+[babel]: https://babeljs.io/
