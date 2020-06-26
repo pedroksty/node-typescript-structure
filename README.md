@@ -26,7 +26,7 @@
 
 ## 💻 Sobre o projeto
 
- Este é um repositório para estrutura de pastas e configurações iniciais para projetos em NodeJs e TypeScript
+ Este é um repositório para estrutura de pastas e configurações iniciais para projetos em NodeJs com TypeScript
 
 ## 🛠 Tecnologias
 
