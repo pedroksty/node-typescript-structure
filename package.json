@@ -37,6 +37,8 @@
     "typescript": "^3.9.5"
   },
   "dependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "bcryptjs": "^2.4.3",
     "express": "^4.17.1"
   }
 }
