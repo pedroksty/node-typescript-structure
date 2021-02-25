@@ -7,7 +7,9 @@
   "scripts": {
     "build": "babel src --extensions \".js,.ts\" --out-dir dist --copy-files --no-copy-ignored",
     "start": "node dist/server.js",
-    "dev": "ts-node-dev -r tsconfig-paths/register --respawn --transpileOnly --ignore-watch node_modules --no-notify src/server.ts",
+    "dev": "ts-node-dev -r tsconfig-paths/register --respawn --transpile-only --ignore-watch node_modules --no-notify --exit-child src/server.ts",
+    "migrate:dev": "prisma migrate dev --preview-feature",
+    "migrate:deploy": "prisma migrate deploy --preview-feature",
     "test": "jest"
   },
   "devDependencies": {
@@ -16,6 +18,7 @@
     "@babel/node": "^7.10.1",
     "@babel/preset-env": "^7.10.2",
     "@babel/preset-typescript": "^7.10.1",
+    "@types/cors": "^2.8.10",
     "@types/express": "^4.17.6",
     "@types/jest": "^26.0.0",
     "@typescript-eslint/eslint-plugin": "^3.3.0",
@@ -39,6 +42,7 @@
   "dependencies": {
     "@types/bcryptjs": "^2.4.2",
     "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
     "express": "^4.17.1"
   }
 }

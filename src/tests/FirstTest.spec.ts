@@ -1,9 +1,6 @@
-import { User } from '@models/User'
+test('it should to a + b to equal 4', () => {
+  const a = 2
+  const b = 2
 
-test('it should be ok', () => {
-  const user = new User()
-
-  user.name = 'Diego'
-
-  expect(user.name).toEqual('Diego')
+  expect(a + b).toEqual(4)
 })
