@@ -17,7 +17,11 @@
   "paths": {
     "@modules/*": ["modules/*"],
     "@config/*": ["config/*"],
-    "@shared/*": ["shared/*"]
+    "@shared/*": ["shared/*"],
+    "@controllers/*": ["controllers/*"],
+    "@utils/*": ["utils/*"],
+
+
   }
 },
 "include": ["./src/**/*"]
